@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:gravity="start"
+        android:text="28 января, чт"
+        android:textSize="22sp"
+        android:paddingStart="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="15sp"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="50dp"
+            android:background="@drawable/humo_sing"
+            android:layout_height="50dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:gravity="start"
+                android:text="Хумо"
+                android:textSize="15sp"
+                android:paddingStart="20sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:gravity="start"
+                android:text="Пополнение кошелька"
+                android:textSize="15sp"
+                android:paddingStart="20sp"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="end"
+            android:layout_gravity="center_vertical|end"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:gravity="start"
+                android:text="+861.30"
+                android:textSize="15sp"
+                android:paddingStart="20sp"
+                android:textColor="@android:color/holo_green_light"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:gravity="start"
+                android:text="13:53"
+                android:textSize="15sp"
+                android:paddingStart="20sp"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
